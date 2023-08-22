@@ -5,7 +5,7 @@ public class Animal {
     private String nombre;
     private String genero;
     private double peso;
-    Animal pareja;
+    private Animal pareja;
 
     public Animal(){
 
@@ -41,6 +41,9 @@ public class Animal {
 
     public void setPeso(double peso) {
         this.peso = peso;
+    }
+    public Animal getPareja() {
+        return pareja;
     }
 
     @Override
