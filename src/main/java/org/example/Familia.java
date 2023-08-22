@@ -48,6 +48,8 @@ public class Familia {
     public void setHijo(Animal hijo) {
         this.hijo = hijo;
     }
+    //cambiar this.papa.nombre a this.papa.getNombre() para obtener el nombre
+    //asignado
 
     public void  imprimirFamilia(){
 
