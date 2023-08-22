@@ -2,9 +2,9 @@ package org.example;
 
 public class Familia {
 
-    Animal papa;
-    Animal mama;
-    Animal hijo;
+    private Animal papa;
+    private Animal mama;
+    private Animal hijo;
 
     //constructor vacio
     public Familia(){
@@ -67,13 +67,13 @@ public class Familia {
         if(this.papa.pareja!=null){
 
             Animal hijo= new Animal();
-            hijo.nombre=nombre;
-            hijo.peso=1;
+            hijo.setNombre(nombre);
+            hijo.setPeso(1);
             double random = Math.random();
             if(random<0.5){
-                hijo.genero="F";
+                hijo.setGenero("F");
             }else{
-                hijo.genero="M";
+                hijo.setGenero("M");
             }
             this.hijo=hijo;
 

@@ -2,9 +2,9 @@ package org.example;
 
 public class Animal {
 
-    String nombre;
-    String genero;
-    double peso;
+    private String nombre;
+    private String genero;
+    private double peso;
     Animal pareja;
 
     public Animal(){
